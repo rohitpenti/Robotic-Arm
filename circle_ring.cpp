@@ -142,7 +142,7 @@ int main( int argc, char** argv )
 		}
 
 		  Mat imgLines1 = Mat::zeros( original.size(), CV_8UC3 );
-		  line(imgLines1, mc1[0], mc1[1], Scalar(255,255,0), 2);
+		  line(imgLines1, mc1[0], mc1[1], Scalar(0,255,255), 2);
 		  original+=imgLines1;
 
 		  Mat imgLines2 = Mat::zeros( original.size(), CV_8UC3 );
